@@ -1,0 +1,8 @@
+@media screen and (max-width: 800px) and (min-width: 350px) {
+  .about {
+    display: grid;
+  }
+  .about-text {
+    margin-top: 20%;
+  }
+}

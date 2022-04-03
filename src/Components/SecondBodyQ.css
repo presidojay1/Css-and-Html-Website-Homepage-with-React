@@ -1,0 +1,15 @@
+@media screen and (max-width: 800px) and (min-width: 350px) {
+  .secondbody-flex {
+    display: block;
+  }
+  .flex1 {
+    margin-bottom: 20px;
+    flex-basis: 28%;
+    width: 90%;
+    background-color: rgba(65, 67, 68, 0.7);
+    height: 300px;
+    border-radius: 14px;
+    padding: 30px 20px;
+    transition: 1.2s;
+  }
+}

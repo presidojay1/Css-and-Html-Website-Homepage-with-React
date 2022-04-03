@@ -1,0 +1,48 @@
+.accordion-item {
+  background-color: rgb(142, 161, 177);
+  margin-bottom: 15px;
+  padding: 10px 10px;
+  box-shadow: 5px 5px 8px rgb(142, 193, 235), 10px 10px 8px rgb(161, 156, 156);
+}
+.accordion-content {
+  color: antiquewhite;
+  font-size: 15px;
+  line-height: 1.8;
+}
+.accordion-title .button {
+  color: antiquewhite;
+  text-align: right;
+  cursor: pointer;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.accordion-title p {
+  font-size: 18px;
+  font-weight: bold;
+  color: azure;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(10, 10, 10);
+  text-align: center;
+  margin-bottom: 20px;
+}
+h1:hover {
+  color: rgb(87, 192, 192);
+  text-shadow: rgba(76, 93, 129, 0.7);
+  cursor: pointer;
+}
+h1::after {
+  content: "";
+  width: 0%;
+  height: 3px;
+  background: rgb(80, 79, 79);
+  display: block;
+  margin: auto;
+  transition: 1s;
+}
+h1:hover::after {
+  width: 20%;
+}

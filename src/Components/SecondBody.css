@@ -1,0 +1,74 @@
+.secondbody-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.secondbody-section {
+  background-image: none;
+  height: 100%;
+  border-radius: 14px;
+  width: 95%;
+  margin: auto;
+  margin-top: 30px;
+  background-color: rgba(227, 229, 230, 0.7);
+}
+.secondbody-head {
+  text-align: center;
+  color: rgba(22, 12, 133, 52);
+  margin-bottom: 30px;
+}
+
+.secondbody-head h3 {
+  font-weight: bold;
+  font-size: 27px;
+  color: rgb(10, 10, 10);
+}
+.secondbody-head h3:hover {
+  color: rgb(80, 82, 82);
+  text-shadow: rgba(76, 93, 129, 0.7);
+}
+.secondbody-head h3::after {
+  content: "";
+  width: 0%;
+  height: 3px;
+  background: rgb(80, 79, 79);
+  display: block;
+  margin: auto;
+  transition: 1s;
+}
+.secondbody-head h3:hover::after {
+  width: 30%;
+}
+
+.secondbody-head p {
+  font-size: 20px;
+  color: rgb(10, 10, 10);
+}
+
+.flex1 {
+  flex-basis: 28%;
+  width: 100%;
+  background-color: rgba(65, 67, 68, 0.7);
+  height: 300px;
+  border-radius: 14px;
+  padding: 30px 20px;
+  transition: 1s;
+}
+.flex1 h3 {
+  color: aliceblue;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  border-bottom: 2px solid white;
+}
+.flex1 p {
+  color: aliceblue;
+  padding: 10px;
+  line-height: 1.9;
+  font-size: 18px;
+  text-align: center;
+}
+.flex1:hover {
+  background-color: rgba(80, 143, 108, 0.7);
+  box-shadow: 5px 5px 8px rgb(93, 148, 102), 10px 10px 8px rgb(22, 21, 21);
+}

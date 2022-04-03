@@ -1,0 +1,47 @@
+@media screen and (max-width: 800px) and (min-width: 350px) {
+  .redbody h1 {
+    color: aliceblue;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .redcomponent p {
+    color: rgb(239, 245, 245);
+    font-size: 15px;
+    text-align: left;
+  }
+  .redcomponent a {
+    text-decoration: none;
+    border: 2px solid aliceblue;
+    color: antiquewhite;
+    background: transparent;
+    position: absolute;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    bottom: 0;
+    margin-top: 40px;
+    left: 0;
+    transition: 1.1s;
+  }
+  .redcomponent a:hover {
+    text-decoration: none;
+    color: antiquewhite;
+    background: rgb(1, 32, 44);
+    position: absolute;
+    padding: 10px 20px;
+    left: 0;
+    box-shadow: 2px 3px 5px rgb(32, 32, 32), 3px 4px 6px rgb(44, 147, 179);
+    bottom: 0;
+    cursor: pointer;
+  }
+  .redcomponent {
+    width: 90%;
+    height: 30vh;
+    margin: auto;
+    margin-top: 20px;
+    background: red;
+    padding: 20px 20px;
+    margin-bottom: 30px;
+    position: relative;
+  }
+}

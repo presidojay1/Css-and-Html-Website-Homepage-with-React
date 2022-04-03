@@ -1,0 +1,94 @@
+.section-about {
+  background: none;
+  width: 97%;
+  margin: auto;
+  margin-top: 20px;
+  height: 100%;
+}
+.about {
+  display: flex;
+}
+.about-image {
+  flex-basis: 40%;
+  position: relative;
+}
+.about-text {
+  flex: 1;
+}
+.about-image img {
+  width: 100%;
+  height: 120%;
+  border-radius: 10px;
+}
+.about-text {
+  margin: 0 15px;
+  background: grey;
+  height: 100%;
+  padding: 20px 20px;
+  border-radius: 12px;
+  box-shadow: 5px 10px 8px #888888;
+}
+.about-text:hover {
+  box-shadow: 5px 10px inset;
+  box-shadow: 5px 5px 8px rgb(142, 193, 235), 10px 10px 8px rgb(161, 156, 156);
+}
+
+.about-text h1 {
+  color: aliceblue;
+  text-align: center;
+  font-weight: bold;
+  font-size: 27px;
+  padding-bottom: 20px;
+}
+.about-text h5 {
+  color: aliceblue;
+  text-align: left;
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 14px;
+}
+.about-text p {
+  color: rgb(23, 55, 83);
+  line-height: 1.9;
+  font-size: 14px;
+}
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120%;
+  background: transparent;
+}
+.layer:hover {
+  background-color: rgba(69, 87, 78, 0.7);
+}
+
+.layer h5 {
+  color: white;
+  right: 30%;
+  bottom: 0;
+  transform: translateX(-50%);
+  position: absolute;
+  opacity: 0;
+  font-size: 22px;
+  transition: 1s;
+}
+.layer:hover h5 {
+  bottom: 49%;
+  opacity: 1;
+}
+.layer p {
+  color: white;
+  left: 60%;
+  top: 0;
+  transform: translateX(-70%);
+  position: absolute;
+  opacity: 0;
+  transition: 1s;
+  font-size: 20px;
+}
+.layer:hover p {
+  top: 59%;
+  opacity: 1;
+}
